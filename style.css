@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+body {
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100 - 0.1px);
+    margin: 0 1.5rem;
+}
+
+h3 {
+    font-family: "Outfit", "sans-serif";
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: bold;
+    color: hsl(218, 48%, 22%);
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: inherit;
+    color: hsl(220, 15%, 55%);
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 500px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.container h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.container article:first-child {
+    border-radius: 1rem 1rem 0 0;
+    -webkit-border-radius: 1rem 1rem 0 0;
+    -moz-border-radius: 1rem 1rem 0 0;
+    -ms-border-radius: 1rem 1rem 0 0;
+    -o-border-radius: 1rem 1rem 0 0;
+}
+
+.container article:last-child {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5rem;
+    border-radius: 0 0 1rem 1rem;
+    margin-top: -1rem;
+    -webkit-border-radius: 0 0 1rem 1rem;
+    -moz-border-radius: 0 0 1rem 1rem;
+    -ms-border-radius: 0 0 1rem 1rem;
+    -o-border-radius: 0 0 1rem 1rem;
+}
+
+.container p {
+    margin-bottom: 2rem;
+}
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(218, 44%, 22%); 
+}
